@@ -2,13 +2,13 @@
 
 
 
-.container::before {
+.main::before {
   content: "Before Element ";
   font-weight: bold;
 	color: red;
 }
 
-.container::after {
+.main::after {
   content: " After Element";
   font-weight: bold;
 	color: red;
