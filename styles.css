@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container span {
+  padding: 10px;
+
+}
+
+.container::before {
+  content: "Before Element ";
+  font-weight: bold;
+}
+
+.container::after {
+  content: " After Element";
+  font-weight: bold;
+}
+
